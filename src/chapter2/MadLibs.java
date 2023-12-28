@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class MadLibs {
     public static void main(String args[]){
         // Get the season of the year, then whole number, then an adjective
-        System.out.println("Enter the season of the year:");
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the season of the year:");
         String season = scanner.next();
 
         System.out.println("Enter a whole number:");
